@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <!-- saved from url=(0077)https://cloud.bankofchina.com/ha/eols/xsgzsweb/wechat/index/222?from=timeline -->
-<html lang="zh" style="font-size: 80.2133px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="zh" style="font-size: 80.2133px;">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width , initial-scale=1,maximum-scale=1, user-scalable=no">
     <link href="/weixin/ysgzs/clound.css" rel="stylesheet">
     <link href="/weixin/ysgzs/swiper.min.css" rel="stylesheet">
-    <title>云上金融工作室</title>
+    <title>孟州射阳村镇银行云上工作室</title>
     <style type="text/css">
         .mask2 .swiper-slide {
             width: 80%;
@@ -24,24 +27,28 @@
             -webkit-align-items: center;
             align-items: center;
         }
+
         .mask2 .swiper-pagination-bullet {
             width: 20px;
             height: 20px;
             text-align: center;
             line-height: 20px;
             font-size: 12px;
-            color:#000;
+            color: #000;
             opacity: 1;
             background: #fff;
         }
+
         .mask2 .swiper-pagination-bullet-active {
-            color:#fff;
+            color: #fff;
             background: #007aff;
         }
+
         .swiper-pagination {
             position: absolute;
             top: 18rem;
         }
+
         .mask2 .swiper-container {
             overflow: auto;
             height: 20rem;
@@ -50,11 +57,10 @@
     </style>
 </head>
 <body>
+
 <div class="wrap">
     <div style='margin:0 auto;display:none;'>
-
-        <img src='/weixin/ysgzs/590c9240a37f6dbda3ad9f5644bbed31.png' />
-
+        <img src='/weixin/ysgzs/590c9240a37f6dbda3ad9f5644bbed31.png'/>
     </div>
     <!--logo部分-->
     <div class="logo">
@@ -63,7 +69,7 @@
                 <img src="/weixin/ysgzs/logo-11014.png">
                 <!-- <span>郑州高新技术开发区支行</span> -->
             </div>
-            <div class="logo-text2">高新区支行营业部</div>
+            <div class="logo-text2">营业部</div>
         </div>
         <div class="logo-right">
             <p></p>
@@ -134,331 +140,55 @@
     <div class="slide">
         <img class="tongzhiimg" src="/weixin/ysgzs/tongzhi.png">
         <!-- Swiper -->
-        <div class="swiper-container con1 swiper-no-swiping swiper-container-initialized swiper-container-vertical" id="notice">
-            <div class="swiper-wrapper swiper-wrapper-new" style="transition-duration: 0ms; transform: translate3d(0px, -16896px, 0px);"><div class="swiper-slide newslide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="1" style="height: 5632px;">
-                <a href="https://cloud.bankofchina.com/ha/eols/xsgzsweb/wechat/index/222?from=timeline#" style="text-decoration:none;" onclick="countByManager(222,&#39;&#39;,11,&#39;6&#39;,&quot;\u6E29\u99A8\u63D0\u793A\uFF1A\u6240\u6709\u8D44\u91D1\u4EA4\u6613\u5C06\u5728\u624B\u673A\u94F6\u884C\u4E0A\u5B8C\u6210&quot;,&quot;#&quot;,&#39;&#39;,&#39;1&#39;)">
-                    <!--<span class="span1">通知：</span>-->
-                    <span class="span2">温馨提示：所有资金交易将在手机银行上完成</span>
-                </a>
-            </div>
-                <div class="swiper-slide newslide swiper-slide-duplicate-active" data-swiper-slide-index="0" style="height: 5632px;">
-                    <a href="https://mbas.mbs.boc.cn/WeiBankFront/index.html?entrance=exchangeTradePrice&amp;appid=wx567af860fd4db040&amp;bankCode=001001" style="text-decoration:none;" onclick="countByManager(222,&#39;&#39;,10,&#39;6&#39;,&quot;\u70B9\u6211\u67E5\u8BE2\u5916\u6C47\u884C\u60C5&quot;,&quot;https:\/\/mbas.mbs.boc.cn\/WeiBankFront\/index.html?entrance=exchangeTradePrice\u0026appid=wx567af860fd4db040\u0026bankCode=001001&quot;,&#39;&#39;,&#39;1&#39;)">
+        <div class="swiper-container con1 swiper-no-swiping swiper-container-initialized swiper-container-vertical"
+             id="notice">
+            <div class="swiper-wrapper swiper-wrapper-new"
+                 style="transition-duration: 0ms; transform: translate3d(0px, -16896px, 0px);">
+                <div class="swiper-slide newslide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev"
+                     data-swiper-slide-index="1" style="height: 5632px;">
+                    <a href="#" style="text-decoration:none;"
+                       onclick="countByManager(222,&#39;&#39;,11,&#39;6&#39;,&quot;\u6E29\u99A8\u63D0\u793A\uFF1A\u6240\u6709\u8D44\u91D1\u4EA4\u6613\u5C06\u5728\u624B\u673A\u94F6\u884C\u4E0A\u5B8C\u6210&quot;,&quot;#&quot;,&#39;&#39;,&#39;1&#39;)">
                         <!--<span class="span1">通知：</span>-->
-                        <span class="span2">点我查询外汇行情</span>
+                        <span class="span2">孟州射阳村镇银行，老百姓自己的银行！</span>
                     </a>
                 </div>
-                <div class="swiper-slide newslide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="1" style="height: 5632px;">
-                    <a href="https://cloud.bankofchina.com/ha/eols/xsgzsweb/wechat/index/222?from=timeline#" style="text-decoration:none;" onclick="countByManager(222,&#39;&#39;,11,&#39;6&#39;,&quot;\u6E29\u99A8\u63D0\u793A\uFF1A\u6240\u6709\u8D44\u91D1\u4EA4\u6613\u5C06\u5728\u624B\u673A\u94F6\u884C\u4E0A\u5B8C\u6210&quot;,&quot;#&quot;,&#39;&#39;,&#39;1&#39;)">
+                <div class="swiper-slide newslide swiper-slide-duplicate-active" data-swiper-slide-index="0"
+                     style="height: 5632px;">
+                    <a href="#" style="text-decoration:none;"
+                       onclick="countByManager(222,&#39;&#39;,10,&#39;6&#39;,&quot;\u70B9\u6211\u67E5\u8BE2\u5916\u6C47\u884C\u60C5&quot;,&quot;https:\/\/mbas.mbs.boc.cn\/WeiBankFront\/index.html?entrance=exchangeTradePrice\u0026appid=wx567af860fd4db040\u0026bankCode=001001&quot;,&#39;&#39;,&#39;1&#39;)">
+                        <!--<span class="span1">通知：</span>-->
+                        <span class="span2">小额贷款，急速放款！</span>
+                    </a>
+                </div>
+                <div class="swiper-slide newslide swiper-slide-prev swiper-slide-duplicate-next"
+                     data-swiper-slide-index="1" style="height: 5632px;">
+                    <a href="#" style="text-decoration:none;"
+                       onclick="countByManager(222,&#39;&#39;,11,&#39;6&#39;,&quot;\u6E29\u99A8\u63D0\u793A\uFF1A\u6240\u6709\u8D44\u91D1\u4EA4\u6613\u5C06\u5728\u624B\u673A\u94F6\u884C\u4E0A\u5B8C\u6210&quot;,&quot;#&quot;,&#39;&#39;,&#39;1&#39;)">
                         <!--<span class="span1">通知：</span>-->
                         <span class="span2">温馨提示：所有资金交易将在手机银行上完成</span>
                     </a>
                 </div>
-                <div class="swiper-slide newslide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" style="height: 5632px;">
-                    <a href="https://mbas.mbs.boc.cn/WeiBankFront/index.html?entrance=exchangeTradePrice&amp;appid=wx567af860fd4db040&amp;bankCode=001001" style="text-decoration:none;" onclick="countByManager(222,&#39;&#39;,10,&#39;6&#39;,&quot;\u70B9\u6211\u67E5\u8BE2\u5916\u6C47\u884C\u60C5&quot;,&quot;https:\/\/mbas.mbs.boc.cn\/WeiBankFront\/index.html?entrance=exchangeTradePrice\u0026appid=wx567af860fd4db040\u0026bankCode=001001&quot;,&#39;&#39;,&#39;1&#39;)">
+                <div class="swiper-slide newslide swiper-slide-duplicate swiper-slide-active"
+                     data-swiper-slide-index="0" style="height: 5632px;">
+                    <a href="#" style="text-decoration:none;"
+                       onclick="countByManager(222,&#39;&#39;,10,&#39;6&#39;,&quot;\u70B9\u6211\u67E5\u8BE2\u5916\u6C47\u884C\u60C5&quot;,&quot;https:\/\/mbas.mbs.boc.cn\/WeiBankFront\/index.html?entrance=exchangeTradePrice\u0026appid=wx567af860fd4db040\u0026bankCode=001001&quot;,&#39;&#39;,&#39;1&#39;)">
                         <!--<span class="span1">通知：</span>-->
-                        <span class="span2">点我查询外汇行情</span>
+                        <span class="span2">存款利率上浮50%</span>
                     </a>
-                </div></div>
-            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-    </div>
-    <!--为您推荐-->
-    <div class="recommend">
-        <div class="rec-title">
-            <img src="/weixin/ysgzs/fire.png">
-            <p>为您推荐</p>
-            <div class="lookmore">
-                <p onclick="productList()">查看更多</p>
-                <img src="/weixin/ysgzs/jiantou.png">
+                </div>
             </div>
-        </div>
-        <ul class="product">
-            <li class="border1">
-                <!--<a th:switch="${userProduct.productType}" th:onclick="productDetail(,300),countByManager(222,'',300,'4',中银基智通,https://ccsa.ebsnew.boc.cn/shareFinace/shareVue/bocFinance/index.html#/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCVosXOXaTTWLzPcL1MWL2eZIbd2Y0WZ9ldZaoWp8oP0TaPcXaPcf1QWXzPlXbQp1kfpwogHMbBZ5mdHonMWQHQWf1QmLoPmCwBAMuCAUMBpwRgZ0oP0T0QmL0Pz%3D%3D&amp;encryptflag=1,,'1')" style="text-decoration:none;">-->
-
-                <a onclick="productDetail(300,&quot;0&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCVosXOXaTTWLzPcL1MWL2eZIbd2Y0WZ9ldZaoWp8oP0TaPcXaPcf1QWXzPlXbQp1kfpwogHMbBZ5mdHonMWQHQWf1QmLoPmCwBAMuCAUMBpwRgZ0oP0T0QmL0Pz%3D%3D\u0026encryptflag=1&quot;),countByManager(222,&#39;&#39;,300,&#39;4&#39;,&quot;\u4E2D\u94F6\u57FA\u667A\u901A&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCVosXOXaTTWLzPcL1MWL2eZIbd2Y0WZ9ldZaoWp8oP0TaPcXaPcf1QWXzPlXbQp1kfpwogHMbBZ5mdHonMWQHQWf1QmLoPmCwBAMuCAUMBpwRgZ0oP0T0QmL0Pz%3D%3D\u0026encryptflag=1&quot;,null,&#39;1&#39;)" style="text-decoration:none;">
-
-
-
-
-                    <p class="p1" style="width:4.5rem">中银理财</p>
-
-                    <p class="p2">中银基智通</p>
-                    <span>
-								<p class="p3">
-									<span>3.4%</span>
-								</p>
-								<p class="p4">
-									业绩比较基准
-								</p>
-							</span>
-
-
-                </a>
-            </li>
-            <li class="border2">
-                <!--<a th:switch="${userProduct.productType}" th:onclick="productDetail(,299),countByManager(222,'',299,'4',中银基智通,https://ccsa.ebsnew.boc.cn/shareFinace/shareVue/bocFinance/index.html#/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCVosXOXaTTWLzPcH4MWL2eZIbd2Y0WZ9ldZaoWp8oP0TaPcXaPcf1QWXzPlXbQp1kfpwogHMbBZ5mdHonMWQHQWf1QmLoPmCwBAMuCAUMBpwRgZ0oP0T0QmL0Pz%3D%3D&amp;encryptflag=1,,'1')" style="text-decoration:none;">-->
-
-                <a onclick="productDetail(299,&quot;0&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCVosXOXaTTWLzPcH4MWL2eZIbd2Y0WZ9ldZaoWp8oP0TaPcXaPcf1QWXzPlXbQp1kfpwogHMbBZ5mdHonMWQHQWf1QmLoPmCwBAMuCAUMBpwRgZ0oP0T0QmL0Pz%3D%3D\u0026encryptflag=1&quot;),countByManager(222,&#39;&#39;,299,&#39;4&#39;,&quot;\u4E2D\u94F6\u57FA\u667A\u901A&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCVosXOXaTTWLzPcH4MWL2eZIbd2Y0WZ9ldZaoWp8oP0TaPcXaPcf1QWXzPlXbQp1kfpwogHMbBZ5mdHonMWQHQWf1QmLoPmCwBAMuCAUMBpwRgZ0oP0T0QmL0Pz%3D%3D\u0026encryptflag=1&quot;,null,&#39;1&#39;)" style="text-decoration:none;">
-
-
-
-
-                    <p class="p1" style="width:4.5rem">中银理财</p>
-
-                    <p class="p2">中银基智通</p>
-                    <span>
-								<p class="p3">
-									<span>3.4%</span>
-								</p>
-								<p class="p4">
-									业绩比较基准
-								</p>
-							</span>
-
-
-                </a>
-            </li>
-            <li class="border3">
-                <!--<a th:switch="${userProduct.productType}" th:onclick="productDetail(,298),countByManager(222,'',298,'4',中银平稳智荟系列,https://ccsa.ebsnew.boc.cn/shareFinace/shareVue/bocFinance/index.html#/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD0QlXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D&amp;encryptflag=1,,'1')" style="text-decoration:none;">-->
-
-                <a onclick="productDetail(298,&quot;0&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD0QlXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D\u0026encryptflag=1&quot;),countByManager(222,&#39;&#39;,298,&#39;4&#39;,&quot;\u4E2D\u94F6\u5E73\u7A33\u667A\u835F\u7CFB\u5217&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD0QlXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D\u0026encryptflag=1&quot;,null,&#39;1&#39;)" style="text-decoration:none;">
-
-
-
-
-                    <p class="p1" style="width:4.5rem">中银理财</p>
-
-                    <p class="p2">中银平稳智荟系列</p>
-                    <span>
-								<p class="p3">
-									<span>3.65%</span>
-								</p>
-								<p class="p4">
-									业绩比较基准
-								</p>
-							</span>
-
-
-                </a>
-            </li>
-            <li class="border4">
-                <!--<a th:switch="${userProduct.productType}" th:onclick="productDetail(,297),countByManager(222,'',297,'4',中银平稳智荟系列,https://ccsa.ebsnew.boc.cn/shareFinace/shareVue/bocFinance/index.html#/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD1RVXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D&amp;encryptflag=1,,'1')" style="text-decoration:none;">-->
-
-                <a onclick="productDetail(297,&quot;0&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD1RVXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D\u0026encryptflag=1&quot;),countByManager(222,&#39;&#39;,297,&#39;4&#39;,&quot;\u4E2D\u94F6\u5E73\u7A33\u667A\u835F\u7CFB\u5217&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD1RVXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D\u0026encryptflag=1&quot;,null,&#39;1&#39;)" style="text-decoration:none;">
-
-
-
-
-                    <p class="p1" style="width:4.5rem">中银理财</p>
-
-                    <p class="p2">中银平稳智荟系列</p>
-                    <span>
-								<p class="p3">
-									<span>3.85%</span>
-								</p>
-								<p class="p4">
-									业绩比较基准
-								</p>
-							</span>
-
-
-                </a>
-            </li>
-            <li class="border5">
-                <!--<a th:switch="${userProduct.productType}" th:onclick="productDetail(,296),countByManager(222,'',296,'4',中银平稳智荟系列,https://ccsa.ebsnew.boc.cn/shareFinace/shareVue/bocFinance/index.html#/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD1QFXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D&amp;encryptflag=1,,'1')" style="text-decoration:none;">-->
-
-                <a onclick="productDetail(296,&quot;0&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD1QFXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D\u0026encryptflag=1&quot;),countByManager(222,&#39;&#39;,296,&#39;4&#39;,&quot;\u4E2D\u94F6\u5E73\u7A33\u667A\u835F\u7CFB\u5217&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD1QFXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D\u0026encryptflag=1&quot;,null,&#39;1&#39;)" style="text-decoration:none;">
-
-
-
-
-                    <p class="p1" style="width:4.5rem">中银理财</p>
-
-                    <p class="p2">中银平稳智荟系列</p>
-                    <span>
-								<p class="p3">
-									<span>3.65%</span>
-								</p>
-								<p class="p4">
-									业绩比较基准
-								</p>
-							</span>
-
-
-                </a>
-            </li>
-            <li class="border6">
-                <!--<a th:switch="${userProduct.productType}" th:onclick="productDetail(,295),countByManager(222,'',295,'4',中银平稳智荟系列,https://ccsa.ebsnew.boc.cn/shareFinace/shareVue/bocFinance/index.html#/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD1QlXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D&amp;encryptflag=1,,'1')" style="text-decoration:none;">-->
-
-                <a onclick="productDetail(295,&quot;0&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD1QlXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D\u0026encryptflag=1&quot;),countByManager(222,&#39;&#39;,295,&#39;4&#39;,&quot;\u4E2D\u94F6\u5E73\u7A33\u667A\u835F\u7CFB\u5217&quot;,&quot;https:\/\/ccsa.ebsnew.boc.cn\/shareFinace\/shareVue\/bocFinance\/index.html#\/productDetail?message=CqYxB3Use25Ge2UoMWQHBp9mUpoxBZ5mCYEbe2U1B3UHCAUkdZzoPmCzfp9ngZQ0VZToP0UEWYsCXIgLXWLzRWD1QlXbQp1kfpwogH1yBpovCX5yMWQHPWP1PWP3QWX1PGLoPmCwBAMuCAUFfpIxB2kMCFXcUGX3QWBbMWL2eZIbd2Y0VZMuWqYwMWQHQGBbQGP%3D\u0026encryptflag=1&quot;,null,&#39;1&#39;)" style="text-decoration:none;">
-
-
-
-
-                    <p class="p1" style="width:4.5rem">中银理财</p>
-
-                    <p class="p2">中银平稳智荟系列</p>
-                    <span>
-								<p class="p3">
-									<span>3.75%</span>
-								</p>
-								<p class="p4">
-									业绩比较基准
-								</p>
-							</span>
-
-
-                </a>
-            </li>
-        </ul>
-    </div>
-    <!--点击开户-->
-    <div class="clickopen">
-        <p class="clickp">还没中行账户？一分钟即可开户</p>
-        <img class="moneycard" src="/weixin/ysgzs/moneycard.png">
-        <div class="clickbtn">
-            <p><a href="https://a.app.qq.com/o/simple.jsp?pkgname=com.chinamworld.bocmbci&amp;channel=0002160650432d595942&amp;fromcase=60001" style="text-decoration:none;color:rgb(51,73,94)">点击开户</a></p>
-            <img class="jiantou" src="/weixin/ysgzs/jiantou.png">
-        </div>
-    </div>
-    <!--惠惊喜-->
-    <div class="rec-title">
-        <img src="/weixin/ysgzs/surprised.png">
-        <p>惠惊喜</p>
-    </div>
-    <div class="surprised-card">
-        <!-- Swiper -->
-        <div class="swiper-container swiper-container-initialized swiper-container-horizontal" id="huijingxi">
-            <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-3534px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 1767px;">
-                <a href="https://mp.weixin.qq.com/s?__biz=MzA3ODUwNzQzNg==&amp;mid=504298177&amp;idx=1&amp;sn=e87878b72ccc898bd58b547d32678f19&amp;chksm=04bbe60233cc6f144d3cf51900bb6134abe1d14a2173f2d566a31b051879c97f149f7411cf4f#rd" onclick="countByManager(222,&#39;&#39;,17,&#39;2&#39;,&quot;\u75AB\u60C5\u671F\u95F4\uFF0C\u987A\u4E301\u5143\u8D2D\u62FE\u60E0\u5BC4\u4EF6\u65E0\u5FE7\uFF01&quot;,&quot;https:\/\/mp.weixin.qq.com\/s?__biz=MzA3ODUwNzQzNg==\u0026mid=504298177\u0026idx=1\u0026sn=e87878b72ccc898bd58b547d32678f19\u0026chksm=04bbe60233cc6f144d3cf51900bb6134abe1d14a2173f2d566a31b051879c97f149f7411cf4f#rd&quot;,&quot;https:\/\/mpboc.oss-cn-qingdao.aliyuncs.com\/laravel6\/images\/4cd8e16f7a3517fbfdb2585ebffc56ff.jpg&quot;,&#39;1&#39;)">
-                    <img src="/weixin/ysgzs/4cd8e16f7a3517fbfdb2585ebffc56ff.jpg" style="height:125px;width:400px;">
-                </a>
-            </div>
-                <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" style="width: 1767px;">
-                    <a href="https://mp.weixin.qq.com/s/BsJETnOapxGcgx3dauvmfQ" onclick="countByManager(222,&#39;&#39;,12,&#39;2&#39;,&quot;\u793C\u8C6B\u5546\u57CE\u6297\u75AB\u7279\u60E0\u4E13\u533A\uFF0C\u65B0\u9C9C\u852C\u83DC\u987A\u4E30\u5305\u90AE\u5230\u5BB6\uFF01&quot;,&quot;https:\/\/mp.weixin.qq.com\/s\/BsJETnOapxGcgx3dauvmfQ&quot;,&quot;https:\/\/mpboc.oss-cn-qingdao.aliyuncs.com\/laravel6\/images\/7831e5ae84b9b8f1bffece16021c8aef.jpg&quot;,&#39;1&#39;)">
-                        <img src="/weixin/ysgzs/7831e5ae84b9b8f1bffece16021c8aef.jpg" style="height:125px;width:400px;">
-                    </a>
-                </div>
-                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 1767px;">
-                    <a href="https://mp.weixin.qq.com/s/aGqet1gNiw27SsPgNqHDMg" onclick="countByManager(222,&#39;&#39;,16,&#39;2&#39;,&quot;\u75AB\u60C5\u671F\u95F4\uFF0C\u8BA9\u60A8\u8DB3\u4E0D\u51FA\u6237\uFF0C\u60F3\u4E70\u4EC0\u4E48\u514D\u8D39\u9001\u5230\u5BB6\uFF01&quot;,&quot;https:\/\/mp.weixin.qq.com\/s\/aGqet1gNiw27SsPgNqHDMg&quot;,&quot;https:\/\/mpboc.oss-cn-qingdao.aliyuncs.com\/laravel6\/images\/57a421aec4cfc3c0a63af862d9e61ed5.png&quot;,&#39;1&#39;)">
-                        <img src="/weixin/ysgzs/57a421aec4cfc3c0a63af862d9e61ed5.png" style="height:125px;width:400px;">
-                    </a>
-                </div>
-                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" style="width: 1767px;">
-                    <a href="https://mp.weixin.qq.com/s?__biz=MzA3ODUwNzQzNg==&amp;mid=504298177&amp;idx=1&amp;sn=e87878b72ccc898bd58b547d32678f19&amp;chksm=04bbe60233cc6f144d3cf51900bb6134abe1d14a2173f2d566a31b051879c97f149f7411cf4f#rd" onclick="countByManager(222,&#39;&#39;,17,&#39;2&#39;,&quot;\u75AB\u60C5\u671F\u95F4\uFF0C\u987A\u4E301\u5143\u8D2D\u62FE\u60E0\u5BC4\u4EF6\u65E0\u5FE7\uFF01&quot;,&quot;https:\/\/mp.weixin.qq.com\/s?__biz=MzA3ODUwNzQzNg==\u0026mid=504298177\u0026idx=1\u0026sn=e87878b72ccc898bd58b547d32678f19\u0026chksm=04bbe60233cc6f144d3cf51900bb6134abe1d14a2173f2d566a31b051879c97f149f7411cf4f#rd&quot;,&quot;https:\/\/mpboc.oss-cn-qingdao.aliyuncs.com\/laravel6\/images\/4cd8e16f7a3517fbfdb2585ebffc56ff.jpg&quot;,&#39;1&#39;)">
-                        <img src="/weixin/ysgzs/4cd8e16f7a3517fbfdb2585ebffc56ff.jpg" style="height:125px;width:400px;">
-                    </a>
-                </div>
-                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1767px;">
-                    <a href="https://mp.weixin.qq.com/s/BsJETnOapxGcgx3dauvmfQ" onclick="countByManager(222,&#39;&#39;,12,&#39;2&#39;,&quot;\u793C\u8C6B\u5546\u57CE\u6297\u75AB\u7279\u60E0\u4E13\u533A\uFF0C\u65B0\u9C9C\u852C\u83DC\u987A\u4E30\u5305\u90AE\u5230\u5BB6\uFF01&quot;,&quot;https:\/\/mp.weixin.qq.com\/s\/BsJETnOapxGcgx3dauvmfQ&quot;,&quot;https:\/\/mpboc.oss-cn-qingdao.aliyuncs.com\/laravel6\/images\/7831e5ae84b9b8f1bffece16021c8aef.jpg&quot;,&#39;1&#39;)">
-                        <img src="/weixin/ysgzs/7831e5ae84b9b8f1bffece16021c8aef.jpg" style="height:125px;width:400px;">
-                    </a>
-                </div></div>
             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
     </div>
 
-
-    <!--最新资讯-->
-    <div class="rec-title">
-        <img src="/weixin/ysgzs/news.png">
-        <p>最新资讯</p>
-        <div class="lookmore">
-            <p><a href="https://cloud.bankofchina.com/xsgzsweb/wechat/hotspot/newList?userId=222" style="text-decoration:none;color:rgb(51,73,94)">查看更多</a></p>
-            <input id="userId" type="hidden" value="222">
-            <img src="/weixin/ysgzs/jiantou.png">
-        </div>
-    </div>
-    <!--新闻列表-->
-    <div class="newsline">
-        <div class="newsimg">
-            <img src="/weixin/ysgzs/f082d1b8398aa29da5f50d42e6455a5b.jpg">
-        </div>
-        <div class="newstext">
-
-            <a onclick="detail(150),countByManager(222,&#39;&#39;,150,&#39;3&#39;,&quot;2020\u5E743\u670827\u65E5\u5916\u6C47\u8D35\u91D1\u5C5E\u5E02\u573A\u5206\u6790&quot;,null,&quot;https:\/\/cloud.bankofchina.com\/ha\/eols\/image\/2020\/03\/27\/f082d1b8398aa29da5f50d42e6455a5b.jpg&quot;,&#39;1&#39;)" style="text-decoration:none;">
-                <p class="newstitle">2020年3月27日外汇贵金属市场分析</p>
-                <p class="newscontent"></p>
-                <p class="newstime">河南分行金融市场部：2020-03-27 14:17</p>
-            </a>
-        </div>
-    </div>
-    <div class="newsline">
-        <div class="newsimg">
-            <img src="/weixin/ysgzs/6c433c2a6a52fc47c5e97de3159bfdc4.jpg">
-        </div>
-        <div class="newstext">
-
-            <a onclick="detail(130),countByManager(222,&#39;&#39;,130,&#39;3&#39;,&quot;2020\u5E743\u670826\u65E5\u5916\u6C47\u8D35\u91D1\u5C5E\u5E02\u573A\u5206\u6790&quot;,null,&quot;https:\/\/cloud.bankofchina.com\/ha\/eols\/image\/2020\/03\/26\/6c433c2a6a52fc47c5e97de3159bfdc4.jpg&quot;,&#39;1&#39;)" style="text-decoration:none;">
-                <p class="newstitle">2020年3月26日外汇贵金属市场分析</p>
-                <p class="newscontent"></p>
-                <p class="newstime">河南分行金融市场部：2020-03-26 14:30</p>
-            </a>
-        </div>
-    </div>
-    <!--邀您体验-->
-    <div class="invite">
-        <img src="/weixin/ysgzs/invite.png">
-        <p>邀您体验</p>
-        <img src="/weixin/ysgzs/invite.png">
-    </div>
-    <!--卡片部分-->
-    <div class="invitecard">
-        <div class="inviteline line1">
-            <a href="https://android.myapp.com/myapp/detail.htm?apkName=com.chinamworld.bocmbci&amp;ADTAG=mobile" style="color:#fff">
-                <img src="/weixin/ysgzs/97a9f97a322318c40979f8877c90baa3.jpg">
-            </a>
-        </div>
-        <div class="inviteline line1">
-            <a href="https://android.myapp.com/myapp/detail.htm?apkName=com.chinamworld.bocmbci&amp;ADTAG=mobile" style="color:#fff">
-                <img src="/weixin/ysgzs/de2c0aeee8fcbc4fa3ddf579a8907fa8.jpg">
-            </a>
-        </div>
-        <div class="inviteline line1">
-            <a href="https://android.myapp.com/myapp/detail.htm?apkName=com.chinamworld.bocmbci&amp;ADTAG=mobile" style="color:#fff">
-                <img src="/weixin/ysgzs/be61c144d02fbdf7d76fabefc0af3488.jpg">
-            </a>
-        </div>
-        <div class="inviteline line1">
-            <a href="https://android.myapp.com/myapp/detail.htm?apkName=com.chinamworld.bocmbci&amp;ADTAG=mobile" style="color:#fff">
-                <img src="/weixin/ysgzs/0c3c53906ca81041fe7a9b1aa2770e8f.jpg">
-            </a>
-        </div>
-        <div class="inviteline line1">
-            <a href="https://android.myapp.com/myapp/detail.htm?apkName=com.chinamworld.bocmbci&amp;ADTAG=mobile" style="color:#fff">
-                <img src="/weixin/ysgzs/2fd0f125a6285983ae8f97a231c6e53b.jpg">
-            </a>
-        </div>
-        <div class="inviteline line1">
-            <a href="https://android.myapp.com/myapp/detail.htm?apkName=com.chinamworld.bocmbci&amp;ADTAG=mobile" style="color:#fff">
-                <img src="/weixin/ysgzs/52bfd3c80bef960ae9574005e168630a.jpg">
-            </a>
-        </div>
-    </div>
-    <!--更多帮助-->
     <div class="rec-title">
         <img src="/weixin/ysgzs/morehelp.png">
         <p>更多帮助</p>
     </div>
     <div class="morehelp" id="morehelp">
-
         <div class="heplline">
             <img src="/weixin/ysgzs/9d772c4990eea2a45680c2cd1c3dafa9.jpg">
-            <p>中行私人银行</p>
-
+            <p>孟州射阳村镇银行</p>
         </div>
-
-        <div class="heplline">
-            <img src="/weixin/ysgzs/1badc326af3ce33d98b413730a7e8d48.jpg">
-            <p>中国银行信用卡</p>
-
-        </div>
-
-        <div class="heplline">
-            <img src="/weixin/ysgzs/118461d0c75ac9e7f1c02f4ef6e2101f.jpg">
-            <p>中国银行</p>
-
-        </div>
-
     </div>
 </div>
 <!--弹框-->
@@ -492,11 +222,6 @@
     <div class="zgmask">
         <div class="swiper-container maskcon swiper-container-initialized swiper-container-horizontal" id="zsinfo">
             <div class="swiper-wrapper" style="transition-duration: 0ms;">
-
-
-
-
-
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
@@ -526,21 +251,23 @@
 <script src="/weixin/ysgzs/reset.js"></script>
 <script src="/weixin/ysgzs/swiper.min.js"></script>
 <script src="/weixin/ysgzs/clipboard.min.js"></script>
-<script src="/weixin/ysgzs/jweixin-1.6.0.js"></script>
+<!--<script src="/weixin/ysgzs/jweixin-1.6.0.js"></script>-->
+<script src="http://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
 <script type="text/javascript">
-
+    //alert(location.href.split('#')[0]);
+   //alert('112233');
     //产品边框样式
     var productLi = $(".product").find("li");
-    productLi.each(function(index,e){
+    productLi.each(function (index, e) {
         var num = index + 1;
-        var className = "border"+ num;
+        var className = "border" + num;
         $(this).addClass(className);
     })
 
     //复制
     function copy() {
         var clipboard = new ClipboardJS('.copy');
-        clipboard.on('success', function(e) {
+        clipboard.on('success', function (e) {
             console.info('Action:', e.action);
             console.info('Text:', e.text);
             console.info('Trigger:', e.trigger);
@@ -549,7 +276,7 @@
             alert("复制成功");
         });
 
-        clipboard.on('error', function(e) {
+        clipboard.on('error', function (e) {
             console.error('Action:', e.action);
             console.error('Trigger:', e.trigger);
             alert("复制失败");
@@ -557,50 +284,65 @@
     }
 
     //分享初始化
-    $(function(){
+    $(function () {
         var from = 'timeline';
-        var isappinstalled = ''
+        var isappinstalled = '';
         $.ajax({
-            url:"../../wechat/index/params/222?from="+from+"&isappinstalled="+isappinstalled,
-            method:"GET",
-            dataType:"Json",
-            success:function(res){
+            url: "http://mzczyh.natapp1.cc/weixin/ysgzs/fenxiang",
+            method: "GET",
+            dataType: "Json",
+            success: function (res) {
+                // alert('123');
+                // alert(res["data.appId"]);
+                // alert(res["data.timestamp"]);
+                // alert(res["data.noncestr"]);
+                // alert(res["data.signature"]);
+
                 console.log(res);
                 wx.config({
                     debug: false,
-                    appId: res.data.appId, // 必填，公众号的唯一标识
-                    timestamp: res.data.timestamp, // 必填，生成签名的时间戳
-                    nonceStr: res.data.nonceStr, // 必填，生成签名的随机串
-                    signature: res.data.signature,// 必填，签名，见附录1
-                    jsApiList: ['updateTimelineShareData', 'updateAppMessageShareData'] ,// 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+                    // appId: res.data.appId, // 必填，公众号的唯一标识
+                    // timestamp: res.data.timestamp, // 必填，生成签名的时间戳
+                    // nonceStr: res.data.nonceStr, // 必填，生成签名的随机串
+                    // signature: res.data.signature,// 必填，签名，见附录1
+                    appId: res["data.appId"], // 必填，公众号的唯一标识
+                    timestamp: res["data.timestamp"], // 必填，生成签名的时间戳
+                    nonceStr: res["data.noncestr"], // 必填，生成签名的随机串
+                    signature: res["data.signature"],// 必填，签名，见附录1
+                    jsApiList: ['updateTimelineShareData', 'updateAppMessageShareData'],// 必填，需要使用的JS接口列表，所有JS接口列表见附录2
                 });
 
-                wx.ready(function(){
+                wx.ready(function () {
 
-                    var shareDestUrl = "https://cloud.bankofchina.com/ha/eols/xsgzsweb/wechat/index/222";
+                    var shareDestUrl = "http://mzczyh.natapp1.cc/weixin/";
                     //分享到朋友圈
                     wx.updateTimelineShareData({
-                        title: '中国银行河南省分行云上金融工作室', // 分享标题
+                        title: '孟州射阳村镇银行', // 分享标题
                         link: shareDestUrl, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-                        imgUrl: 'https://cloud.bankofchina.com/ha/eols/image/2020/02/26/590c9240a37f6dbda3ad9f5644bbed31.png', // 分享图标
+                        imgUrl: 'http://mzczyh.natapp1.cc/weixin/ysgzs/590c9240a37f6dbda3ad9f5644bbed31.png', // 分享图标
                         success: function () {
-                            countByManager(222,'open123','0','1','首页','','','2');
+                            // countByManager(222, 'open123', '0', '1', '首页', '', '', '2');
                             console.log("分享成功");
                         }
                     })
                     //分享给朋友
                     wx.updateAppMessageShareData({
-                        title: '中国银行河南省分行云上金融工作室', // 分享标题
-                        desc: '高新区支行营业部等您很久了!', // 分享描述
+                        title: '孟州射阳村镇银行', // 分享标题
+                        desc: '我们等您很久了!', // 分享描述
                         link: shareDestUrl, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-                        imgUrl: 'https://cloud.bankofchina.com/ha/eols/image/2020/02/26/590c9240a37f6dbda3ad9f5644bbed31.png', // 分享图标
+                        imgUrl: 'http://mzczyh.natapp1.cc/weixin/ysgzs/590c9240a37f6dbda3ad9f5644bbed31.png', // 分享图标
                         success: function () {
                             // 设置成功
-                            countByManager(222,'open123','0','1','首页','','','2');
+                            // countByManager(222, 'open123', '0', '1', '首页', '', '', '2');
                             console.log("分享成功");
                         }
                     })
 
+                });
+                wx.error(function(res){
+
+                    // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。
+                    alert(res);
                 });
             },
         });
@@ -609,18 +351,18 @@
 
     $('.mask').hide();
     // 点击查看更多
-    $(".lookmorebtn").click(function(){
+    $(".lookmorebtn").click(function () {
         $('#moreInfo').show();  //显示蒙版
         $("body").addClass("jinzhi");
     });
     // 关闭弹框
-    $('.close').click(function(){
+    $('.close').click(function () {
         $('.mask').hide();    // 遮罩层隐藏
         $("body").removeClass("jinzhi");
     });
     //惠惊喜
-    var myswiper = new Swiper('#huijingxi',{
-        loop:true,
+    var myswiper = new Swiper('#huijingxi', {
+        loop: true,
         autoplay: { //8.自动播放 
             delay: 2000, //8.1自动播放间隔时间
             stopOnLastSlide: false, //切换到最后一个是否停止，但是在loop:true下无效果；
@@ -628,8 +370,8 @@
         }
     });
     //跑马灯
-    var newsswiper = new Swiper('#notice',{
-        loop:true,
+    var newsswiper = new Swiper('#notice', {
+        loop: true,
         autoplay: { //8.自动播放 
             delay: 2000, //8.1自动播放间隔时间
             stopOnLastSlide: false, //切换到最后一个是否停止，但是在loop:true下无效果；
@@ -642,68 +384,78 @@
 
     //阅读或者分享统计，客户经理维度
     //参数依次为用户id、微信openid、文章id、文章类型、文章标题、文章URL、图片URL、操作类型（1.阅读;2.分享）,没有的填''
-    function countByManager(userId,openId,articleId,articleType,articleTitle,urlPath,imgPath,operType){
-        if(userId == null || userId == ""){
+    function countByManager(userId, openId, articleId, articleType, articleTitle, urlPath, imgPath, operType) {
+        if (userId == null || userId == "") {
             return;
         }
-        if(articleId == null || articleId == ""){
+        if (articleId == null || articleId == "") {
             return;
         }
-        if(articleType == null || articleType == ""){
+        if (articleType == null || articleType == "") {
             return;
         }
         $.ajax({
-            url:'../../wechat/count/detail',
-            type:'POST',
-            dataType:"JSON",
-            contentType:"application/json",
-            data:JSON.stringify({userId:userId,openId:openId,articleId:articleId,articleType:articleType,articleTitle:articleTitle,imgPath:imgPath,urlPath:urlPath,operType:operType}),
-            success:function (data) {
+            url: '../../wechat/count/detail',
+            type: 'POST',
+            dataType: "JSON",
+            contentType: "application/json",
+            data: JSON.stringify({
+                userId: userId,
+                openId: openId,
+                articleId: articleId,
+                articleType: articleType,
+                articleTitle: articleTitle,
+                imgPath: imgPath,
+                urlPath: urlPath,
+                operType: operType
+            }),
+            success: function (data) {
                 console.log(data);
             }
         })
     }
+
     //热点资讯详情
-    function detail(id){
-        var userId=$("#userId").val();
-        location.href ="../../wechat/hotspot/detail?userId="+userId+"&id="+id;
+    function detail(id) {
+        var userId = $("#userId").val();
+        location.href = "../../wechat/hotspot/detail?userId=" + userId + "&id=" + id;
     }
 
     <!--产品列表-->
-    function productList(){
-        var userId=$("#userId").val();
-        location.href ="../../wechat/product/productList?userId="+userId;
+    function productList() {
+        var userId = $("#userId").val();
+        location.href = "../../wechat/product/productList?userId=" + userId;
     }
 
     <!--产品详情-->
     //function productDetail(productId){
-    function productDetail(productId,type,urlPath){
-        var userId=$("#userId").val();
+    function productDetail(productId, type, urlPath) {
+        var userId = $("#userId").val();
         //location.href ="../../wechat/product/productDetail?userId="+userId+"&id="+id+"&productId="+productId;
-        if(type=="0"){
-            window.location.href=urlPath;
-        }else {
-            location.href ="../../wechat/product/productDetail?userId="+userId+"&productId="+productId;
+        if (type == "0") {
+            window.location.href = urlPath;
+        } else {
+            location.href = "../../wechat/product/productDetail?userId=" + userId + "&productId=" + productId;
         }
 
     }
 
     //弹出分享操作提示框
-    function shareTipShow(){
+    function shareTipShow() {
         //$.modal.alertWarning("请点击右上角分享至朋友圈");
         //window.alert("请点击右上角分享至朋友圈");
-        $(".kai").css("display","inline");
+        $(".kai").css("display", "inline");
     }
 
     //关闭分享操作提示框
-    function shareTipHide(){
+    function shareTipHide() {
         //$.modal.alertWarning("请点击右上角分享至朋友圈");
         //window.alert("请点击右上角分享至朋友圈");
-        $(".kai").css("display","none");
+        $(".kai").css("display", "none");
     }
 
     //点击证书
-    $(".zgbook").click(function(){
+    $(".zgbook").click(function () {
         $('#zsbook').show();  //显示蒙版
         $("body").addClass("jinzhi");
     });
@@ -711,7 +463,7 @@
 
     //蒙版资格证书轮播
     var maskswiper = new Swiper('#zsinfo', {
-        loop : false,
+        loop: false,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
@@ -722,4 +474,5 @@
     });
 </script>
 
-</body></html>
+</body>
+</html>
